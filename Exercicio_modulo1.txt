@@ -1,0 +1,8 @@
+1- Qual a importância do HTML na construção de páginas ? 
+R= O HTML (Hypertext Markup Language) é importante para gerar documentos para a web de forma fácil, assegurando a acessibilidade das páginas e sua transmissão pela internet. Ele foi a primeira linguagem de marcação que atendeu a um grande número de plataformas para computadores e browsers.
+
+2- Qual a importância do CSS na construção de páginas ? 
+R= A vantagem do CSS nesse sentido é garantir que o estilo visual padrão do seu site ou app seja replicado em todas as outras páginas do jeito que você personalize. Para isso, você pode utilizar apenas um documento . css e importá-lo para cada página . html do seu site para eles receberem a mesma configuração.
+
+3- Qual a importância do JavaScript na construção de páginas ? 
+R= JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc.
