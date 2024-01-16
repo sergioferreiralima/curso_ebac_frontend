@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body > header {
+     background-color:rgb(66, 66, 66);
+     margin: 0 auto;
+     padding: 15px 0; 
+     color: #f5f5f5;
+     font-family: Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, sans-serif;
+
+}
+
+header .container{
+    display: flex;  
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+header li{
+    display: inline; 
+    font-family: Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+     
+}
+
+header li a {
+    color: #f5f5f5; 
+  
+    text-decoration: none;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;  
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img{
+   width: 100%;
+
+   
+}
+
+.articles article{
+    width: 30%;
+   
+}
+
+.articles article img{
+     border-radius: 10px;
+   
+}
+
+section{
+    padding: 15px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 15px;
+    /*font-size: 32px;*/
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a{
+    background-color: rgb(196, 196, 240);
+    color: #f5f5f5;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article time{
+    color: rgb(153, 149, 149);
+}
+
+.articles article p,
+.articles article a{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#filmes {
+    background-color: #c5bfbf;
+}
+
+#filmes .articles article a{
+    background-color: #a8a2a2;;
+}
+
+#games {
+    background-color: #dbbdbd;
+}
+
+#games .articles article a{
+    background-color: #b69e9e;
+}
