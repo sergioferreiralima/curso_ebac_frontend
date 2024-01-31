@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Roboto;
+    color: #fff;
+}
+
+body {
+    background-color: #3e3d3f;
+}
+
+h3 {
+    margin-bottom: 8px;
+}
+
+header {
+    background-color: rgb(114, 110, 110);
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header img {
+    height: 40px;
+    margin-right: 16px;
+}
+
+.container {
+    display: block;
+    padding-top: 16px;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+#nova-tarefa {
+    margin-bottom: 16px;
+}
+
+#adicionar-tarefa-titulo {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+#adicionar-tarefa-titulo img {
+    height: 24px;
+    margin-right: 16px;
+}
+
+#inclusao-tarefa {
+    
+    align-items: center;
+    justify-content: center;
+}
+
+#nome-tarefa {
+    border:none;
+    border-radius: 4px;
+    color: #000;
+    max-width: 500px;
+    width: 100%;
+    padding: 4px 8px;
+}
+
+#btn-salvar {
+    border:none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #121113;
+    font-size: 14px;
+    padding: 4px 8px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+#btn-salvar:hover {
+    background-color: #a0a09d;
+}
+
+b {
+    font-size: 24px;
+}
+
+#tarefa-titulo {
+    display: flex;
+    align-items: center;
+  
+    height: 12px;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+#tarefa-titulo label {
+    font-weight: bold;
+}
+
+#tarefa-titulo img {
+    height: 20px;
+    margin: 16 4px;
+    cursor: pointer;
+}
+
+#tarefa-titulo input {
+    width: 350px;
+}
+
+.nome-tarefa-salva {
+    border:none;
+    border-radius: 8px;
+    color: #fff;
+    max-width: 580px;
+    height: 19px;
+    width: 100%;
+    padding: 1px 8px 0 8px;
+    resize: none;
+    margin-left: 4px;
+    background: none;
+}
+
+.nome-tarefa-salva {
+    outline: none;
+}
+

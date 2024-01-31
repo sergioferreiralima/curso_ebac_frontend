@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.3/dist/sweetalert2.min.css">
+</head>
+<body>
+    <header>
+        
+        <h1>LISTA DE TAREFAS</h1>
+     
+    </header>
+
+    <div class="container">
+        <div id="nova-tarefa">
+
+            <div id="adicionar-tarefa-titulo">                
+                <h2>Adicionar tarefa</h2>
+            </div>
+
+            <form id="inclusao-tarefa">
+                <ul>
+                    <li>
+                        <label for="nome-tarefa">Nome da tarefa:</label>
+                        <input type="text" id="nome-tarefa" maxlength="60" required />
+                        <button type="button" type="submit" id="btn-salvar">Salvar</button>
+                        
+                    </li>                  
+                </ul>
+            </form>
+
+        </div>
+
+        <div id="lista-tarefa-titulo">
+            <h3>Minhas tarefas</h3>
+        </div>
+
+        <div id="lista-tarefas">
+        </div>
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.3/dist/sweetalert2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
